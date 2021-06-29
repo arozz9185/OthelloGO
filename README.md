@@ -8,4 +8,5 @@ In this particular example, the AI is based on MiniMax Tree Search, State Value 
 And the theory is quite simple:                                                                  
   1.MiniMax Tree: Use a basic binary tree search to simulate the possible outcome and try to find the target state value each player want most.   
   2.State Value Fuction: Define a function that generate the value of each state given a Othello Board.                                         
-  3.
+  3.Alpha-Beta Pruning: One of the simple way to optimize and accelerate the process of tree search. Pruning the branches that is unecessary. 
+ References:  https://www.othelloonline.org/, https://en.wikipedia.org/wiki/Minimax, https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning.
